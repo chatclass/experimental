@@ -1,0 +1,33 @@
+{
+  "entryPoints": [
+    "src/index.ts"
+  ],
+  "out": "docs",
+  "exclude": [
+    "**/*.test.ts",
+    "**/*.spec.ts",
+    "node_modules",
+    "dist"
+  ],
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "excludeExternals": true,
+  "theme": "default",
+  "name": "PG→Mongo Ingest CLI",
+  "readme": "README.md",
+  "includeVersion": true,
+  "categorizeByGroup": true,
+  "categoryOrder": [
+    "CLI Commands",
+    "Database",
+    "Data Models",
+    "Services",
+    "Configuration",
+    "*"
+  ],
+  "plugin": [],
+  "hideGenerator": true,
+  "sort": [
+    "source-order"
+  ]
+}
