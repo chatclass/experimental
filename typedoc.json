@@ -1,6 +1,6 @@
 {
   "entryPoints": [
-    "src/index.ts"
+    "src"
   ],
   "out": "docs",
   "exclude": [
@@ -12,6 +12,7 @@
   "excludePrivate": true,
   "excludeProtected": true,
   "excludeExternals": true,
+  "theme": "default",
   "name": "PG→Mongo Ingest CLI",
   "readme": "README.md",
   "includeVersion": true,
@@ -24,9 +25,7 @@
     "Configuration",
     "*"
   ],
-  "plugin": [
-    "typedoc-plugin-markdown"
-  ],
+  "plugin": [],
   "hideGenerator": true,
   "sort": [
     "source-order"
