@@ -12,7 +12,6 @@
   "excludePrivate": true,
   "excludeProtected": true,
   "excludeExternals": true,
-  "theme": "default",
   "name": "PG→Mongo Ingest CLI",
   "readme": "README.md",
   "includeVersion": true,
@@ -25,7 +24,9 @@
     "Configuration",
     "*"
   ],
-  "plugin": [],
+  "plugin": [
+    "typedoc-plugin-markdown"
+  ],
   "hideGenerator": true,
   "sort": [
     "source-order"
