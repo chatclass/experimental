@@ -1,4 +1,4 @@
-import { Message } from '../schemas/message.schema.js';
+import { Message } from '../model/message.schema.js';
 
 export function mapHubEventToMessage(ev: any, ctx: { tenantId: string }): { msg: Message; helpers: { wa_message_id: string; chat_id: string; sender_jid: string | null; ts_iso: string; instance_id: string; channel_id: string; contact_id: string } } {
     const chat_id = String(

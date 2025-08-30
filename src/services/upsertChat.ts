@@ -1,5 +1,5 @@
 import { getAnalyticsDb } from '../db/mongo.js';
-import { Chat } from '../schemas/chat.schema.js';
+import { Chat } from '../model/chat.schema.js';
 
 export interface ChatUpsertInput {
     tenantId: string;

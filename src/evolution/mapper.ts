@@ -1,4 +1,4 @@
-import { Message } from '../schemas/message.schema.js';
+import { Message } from '../model/message.schema.js';
 import { extractTextAndCaption } from './extract.js';
 import { EvolutionMessageRow, MapperContext } from './types.js';
 

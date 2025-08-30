@@ -2,7 +2,7 @@ import { Command } from 'commander';
 import { getHubDb, closeHubMongo } from '../db/hubmongo.js';
 import { logger } from '../config/logger.js';
 import { config } from '../config/env.js';
-import { validateMessage } from '../schemas/validators.js';
+import { validateMessage } from '../model/validators.js';
 import { mapHubEventToMessage } from '../evolution/hubMapper.js';
 
 /**

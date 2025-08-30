@@ -6,7 +6,7 @@ import { config } from '../config/env.js';
 import { filterConfig } from '../evolution/filter.js';
 import { discoverChatIds, readBatchByChat, ChatCursor, getLatestMessageMeta, getNthMostRecentBoundary } from '../evolution/reader.js';
 import { mapEvolutionRowToMessage } from '../evolution/mapper.js';
-import { validateMessage } from '../schemas/validators.js';
+import { validateMessage } from '../model/validators.js';
 import { upsertMessage } from '../services/upsertMessage.js';
 import { upsertChat } from '../services/upsertChat.js';
 
@@ -84,7 +84,7 @@ export function registerIngest(program: Command) {
 
                 for (const chatId of chatIds) {
                     // Attempt to resume from embedded chat cursor if present
-                    const { getExistingCursor } = await import('../services/chats.js');
+                    const { getExistingCursor } = await import('../services/chatCursor.js');
                     const existing = await getExistingCursor(config.tenantId, chatId);
                     const cursor: ChatCursor = existing ?? { last_ts_seconds: null, last_message_id: null };
                     let batchCount = 0;
