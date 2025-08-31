@@ -14,17 +14,6 @@ npm run dev
 - **[🔧 CLI Documentation](CLI_DOCUMENTATION.md)** - Comprehensive guide to all CLI commands and options
 - **[📚 Documentation Guide](DOCUMENTATION.md)** - How to use and customize TypeDoc
 
-### API Reference
-
-- **[📋 Modules Overview](https://chatclass.github.io/experimental/modules.html)** - All project modules and their exports
-- **[🏗️ Class Hierarchy](https://chatclass.github.io/experimental/hierarchy.html)** - Class inheritance and structure
-- **[⚙️ Configuration](https://chatclass.github.io/experimental/modules/config.html)** - Environment and logging configuration
-- **[🗄️ Database](https://chatclass.github.io/experimental/modules/db.html)** - MongoDB and PostgreSQL connections
-- **[🔄 Evolution](https://chatclass.github.io/experimental/modules/evolution.html)** - Data mapping and transformation
-- **[📊 Services](https://chatclass.github.io/experimental/modules/services.html)** - Business logic and data operations
-- **[🎯 CLI Commands](https://chatclass.github.io/experimental/modules/cli.html)** - Command-line interface functions
-- **[📝 Models](https://chatclass.github.io/experimental/modules/model.html)** - Data schemas and validation
-
 ## Environment Variables
 
 ```bash
