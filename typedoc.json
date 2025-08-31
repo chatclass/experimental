@@ -1,6 +1,6 @@
 {
   "entryPoints": [
-    "src"
+    "src/**/*.ts"
   ],
   "out": "docs",
   "exclude": [
